@@ -50,7 +50,13 @@ public class calculadora {
     public static int resta(int n1, int n2){
         return n1-n2;
     }
+
+    public static int mult(int n1, int n2){
+        return n1*n2;
+    }
+
     public static int div(int n1, int n2){
         return n1/n2;
+
     }
 }
