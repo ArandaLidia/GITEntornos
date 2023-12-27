@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ProgramaString {
@@ -13,13 +14,10 @@ public class ProgramaString {
         int opcion= scanner.nextInt();
         switch (opcion){
             case 1:
-                for (String item :
-                        array) {
-                    System.out.print("\t"+item);
-                }
+                palabras(array);
                 break;
             case 2:
-                int azar=(int)(Math.random()* array.length);
+
                 System.out.println("La palabra al azar es: "+array[azar]);
                 break;
             case 3:
@@ -46,5 +44,14 @@ public class ProgramaString {
         }
 
 
+    }
+    public static void palabras(String[]array){
+        for (String item :
+                array) {
+            System.out.print("\t"+item);
+        }
+    }
+    public static int azar(int palabraazar){
+        return int palabrazar=(int)(Math.random()* array.length);
     }
 }
