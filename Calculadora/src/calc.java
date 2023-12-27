@@ -46,4 +46,8 @@ public class calculadora {
     public static int suma(int nUno, int nDos){
         return nUno+nDos;
     }
+
+    public static int resta(int n1, int n2){
+        return n1-n2;
+    }
 }
