@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ProgramaString {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
